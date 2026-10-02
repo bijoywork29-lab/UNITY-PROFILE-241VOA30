@@ -1,0 +1,445 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.1f1 (0d9463e84828) revision 889955'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bijoy" at "2026-07-31T08:44:21.0502606Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-31T08:44:21Z
+
+COMMAND LINE ARGUMENTS:
+D:\6000.5.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+D:/unity projects/nithin/unity_profiles
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+53657
+-parentPid
+11140
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+3b260d2e-4284-4b86-b7e7-3e8e4a8a42bd
+-analyticsLocalProjectId
+27d253f203e89684690eeacc1b6db8cf
+-licensingIpc
+LicenseClient-bijoy
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/unity projects/nithin/unity_profiles
+D:/unity projects/nithin/unity_profiles
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20620]  Target information:
+
+Player connection [20620]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 2426581715 [EditorId] 2426581715 [Version] 1048832 [Id] WindowsEditor(7,BIJOY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Initialize engine version: 6000.5.1f1 (0d9463e84828)
+[Subsystems] Discovering subsystems at path D:/6000.5.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity projects/nithin/unity_profiles/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5920 MB
+    App VRAM Budget: 5152 MB
+    Driver:          32.0.15.9282
+Initialize mono
+Mono path[0] = 'D:/6000.5.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.5.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/6000.5.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.5.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.5.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-bijoy"
+[Licensing::IpcConnector] LicenseClient-bijoy channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bijoy-6000.5.1" at "2026-07-31T08:44:24.1181437Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6416, path: "D:/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e04374a805db4bb68eacc265aedca413
+  Correlation Id:          af85bfd65ae9f8b8483c2525d7959c85
+  External correlation Id: 6024265163437191833
+  Machine Id:              um6q+Q7FWu8TwNzaLaKMdVsahw0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-bijoy-6000.5.1" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bijoy-6000.5.1-notifications" at "2026-07-31T08:44:24.1357552Z"
+[Licensing::Module] Licensing Background thread has ended after 3.09s
+[Licensing::Module] Licensing is initialized (took 1.80s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469938246229-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: D:/6000.5.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/6000.5.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 1.811519 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 3127ms
+	BeginReloadAssembly (180ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (1903ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (180ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (297ms)
+	FinalizeReload (582ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (110ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.034 seconds
+Domain Reload Profiling: 2107ms
+	BeginReloadAssembly (223ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (757ms)
+		LoadAssemblies (390ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (233ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1035ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6885 unused Assets / (7.7 MB). Loaded Objects now: 7700.
+Memory consumption went from 336.5 MB to 328.8 MB.
+Total: 14.799500 ms (FindLiveObjects: 1.166600 ms CreateObjectMapping: 2.358300 ms MarkObjects: 7.333700 ms  DeleteObjects: 3.936900 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (4.0 MB). Loaded Objects now: 7700.
+Memory consumption went from 328.3 MB to 324.3 MB.
+Total: 8.071100 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.862600 ms MarkObjects: 5.780600 ms  DeleteObjects: 1.101800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:44:28.6971988Z
+  Time since last request: 15541.75630590000037 seconds.
+  importAddress: GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6368f7fda5ac4dca86952aebdc7d568' -> (Import Result ID: 'd32d2ffa6b33fe88c636423749d9dbe0') in 0.082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee225aaf08324bc2c4a95269902bbd99 DependenciesID=d93aebe6c8bb4351ac9684dead3e1e29 StaticDependenciesID=83b3af7fbae3a9ba797e6569686712b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:45:13.9765296Z
+  Time since last request: 45.187068 seconds.
+  importAddress: GUID: 8b2e6f69f21b298478d6acf2c42db71d - Path: Assets/Unity_Profile_Contents/Models/Floor - Importer: PreviewImporter
+Importing 'GUID: 8b2e6f69f21b298478d6acf2c42db71d - Path: Assets/Unity_Profile_Contents/Models/Floor - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b2e6f69f21b298478d6acf2c42db71d' -> (Import Result ID: '0c565ee615203549580e4817dbc9a041') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bbf69ce39358a067230201e17ac8255 DependenciesID=ec0cd00aff5c2236f29b7aa97f9ac327 StaticDependenciesID=b3473edc4998fd25ed8e141d1d46f140 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:45:14.6811487Z
+  Time since last request: 0.6704876 seconds.
+  importAddress: GUID: 0ca69b2fc9b0f42d69652cf5dad74419 - Path: Assets/Unity_Profile_Contents/Models/Colllectibles - Importer: PreviewImporter
+Importing 'GUID: 0ca69b2fc9b0f42d69652cf5dad74419 - Path: Assets/Unity_Profile_Contents/Models/Colllectibles - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0ca69b2fc9b0f42d69652cf5dad74419' -> (Import Result ID: '54f81c7131a73f6861e272bbcadb8bb1') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4add260601cda9ae451d6c39729aac11 DependenciesID=c17281a19ee984fdaea215ca5467604b StaticDependenciesID=ebe7a96b281c43fd802ebb9259b15b1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:45:25.0197793Z
+  Time since last request: 10.3191075 seconds.
+  importAddress: GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: PreviewImporter
+Importing 'GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a6368f7fda5ac4dca86952aebdc7d568' -> (Import Result ID: '89b41de5f2dc382a4be2907d052d8aef') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f4ab58ef9ca0eff023940df046933fb DependenciesID=0f4530dd55f5bd991e803494a6e4e8e9 StaticDependenciesID=50334fc3c5370db492b69c0e4f5ddfa8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (8.1 MB). Loaded Objects now: 7703.
+Memory consumption went from 337.0 MB to 328.9 MB.
+Total: 12.560200 ms (FindLiveObjects: 0.581200 ms CreateObjectMapping: 2.206600 ms MarkObjects: 5.703600 ms  DeleteObjects: 4.067700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:46:12.4597219Z
+  Time since last request: 47.4227811 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: 'e18fb29f44dcb31d94173ec40a91fa10') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a901eafed737f8aeb477935ff6c727f6 DependenciesID=13908eb5341518dcab802e6380722e3a StaticDependenciesID=65b81226b761b6cd7bf78d861deba9bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:46:13.0060024Z
+  Time since last request: 0.5318763 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: 'd51ffa739ea1fda51796a15b40ff0d14') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f21fa687e301c86a6e95cfff33af653 DependenciesID=23a6ad61595ad7c17b87dbd90e513a7f StaticDependenciesID=bb5db0c071c682b1f336da93284daf10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (9.0 MB). Loaded Objects now: 7703.
+Memory consumption went from 337.1 MB to 328.1 MB.
+Total: 16.235300 ms (FindLiveObjects: 0.618500 ms CreateObjectMapping: 2.905200 ms MarkObjects: 8.217200 ms  DeleteObjects: 4.491200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:46:35.0133486Z
+  Time since last request: 21.9646614 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: '9a3f9d3f0de02b90fed94ac319d5c2ba') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62a635f366300abac48b49dd2ad00d3c DependenciesID=0812c3647d1ba6998b11ca01b438fc9f StaticDependenciesID=65da0729eca4d7d880c5ccafc38163b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:52:22.563512Z
+  Time since last request: 347.52396629999998 seconds.
+  importAddress: GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6368f7fda5ac4dca86952aebdc7d568' -> (Import Result ID: 'a0d991d12f368f1f5abe7ecb9aea0094') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16d12a26dc6c4f767d51f95d28501279 DependenciesID=6e51dbb178566d508ffafd111740cd58 StaticDependenciesID=457fef47cb83096c14a4f245c84aed31 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (7.5 MB). Loaded Objects now: 7703.
+Memory consumption went from 337.1 MB to 329.6 MB.
+Total: 16.137000 ms (FindLiveObjects: 0.867500 ms CreateObjectMapping: 3.738100 ms MarkObjects: 7.451500 ms  DeleteObjects: 4.077900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:55:49.0301425Z
+  Time since last request: 206.4199887 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: 'be435e0b51a1f39baea01fd9152d7b14') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a901eafed737f8aeb477935ff6c727f6 DependenciesID=a56d53d1736eaea5d00a6679048eb37d StaticDependenciesID=e490f60b4097c9ff600f8dd70ff07140 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:55:49.6355138Z
+  Time since last request: 0.5921055 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: 'da45f946b419bb50538aafdf236e595e') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12b5ea2295d1a9c6185876db54c9b166 DependenciesID=485c8d2688d4064e18a4f0c1154ecdae StaticDependenciesID=9a18730968e96cdf5eea1228365727e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (9.8 MB). Loaded Objects now: 7704.
+Memory consumption went from 337.1 MB to 327.2 MB.
+Total: 15.532100 ms (FindLiveObjects: 0.566700 ms CreateObjectMapping: 2.283500 ms MarkObjects: 5.934700 ms  DeleteObjects: 6.745500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:55:52.4510773Z
+  Time since last request: 2.7505772 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: 'bca645778a3203de23120ea44e190e5e') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a901eafed737f8aeb477935ff6c727f6 DependenciesID=7031abece26b57990d68a6f2edff4587 StaticDependenciesID=2d544527df4e9604722f34352dc9c893 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T08:55:53.0731692Z
+  Time since last request: 0.6118837 seconds.
+  importAddress: GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a4db2873da9a24439722f98f483fe72 - Path: Assets/Unity_Profile_Contents/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a4db2873da9a24439722f98f483fe72' -> (Import Result ID: '52f2565938a9e053b6bf3506ba1c0012') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=221919c9c2ad2dcfe593ea5e2b55a8d8 DependenciesID=9ac69ce08bc7207ee3b2447ff41ab7ff StaticDependenciesID=7b62f58ae7d63603ac75223b1950863d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T10:04:50.190055Z
+  Time since last request: 4137.02856499999962 seconds.
+  importAddress: GUID: 613c788f1945544f5baa134130a6b70d - Path: Assets/Unity_Profile_Contents/Scripts/Provided Scripts/Collectible2D.cs - Importer: PreviewImporter
+Importing 'GUID: 613c788f1945544f5baa134130a6b70d - Path: Assets/Unity_Profile_Contents/Scripts/Provided Scripts/Collectible2D.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 613c788f1945544f5baa134130a6b70d' -> (Import Result ID: '168b4b03507de5c6a2d4c41e8be5e751') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efef05d212817fdb2beba7e662257c8e DependenciesID=a322fc8233b358d2bd05e776fca4c06b StaticDependenciesID=28d1f2881e0606faa8a0d28362afd520 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (8.2 MB). Loaded Objects now: 7704.
+Memory consumption went from 337.1 MB to 328.9 MB.
+Total: 13.671300 ms (FindLiveObjects: 0.736400 ms CreateObjectMapping: 2.235300 ms MarkObjects: 6.821700 ms  DeleteObjects: 3.875400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6873 unused Assets / (7.9 MB). Loaded Objects now: 7704.
+Memory consumption went from 339.5 MB to 331.6 MB.
+Total: 14.965100 ms (FindLiveObjects: 1.409400 ms CreateObjectMapping: 2.658400 ms MarkObjects: 6.357300 ms  DeleteObjects: 4.538300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-31T10:05:00.588026Z
+  Time since last request: 10.3834763 seconds.
+  importAddress: GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: PreviewImporter
+Importing 'GUID: a6368f7fda5ac4dca86952aebdc7d568 - Path: Assets/Unity_Profile_Contents/Scenes/4_LivingRoom_Programming_Scene.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a6368f7fda5ac4dca86952aebdc7d568' -> (Import Result ID: '6d8f42314a6ae42f5f63311fe4c4c044') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f4ab58ef9ca0eff023940df046933fb DependenciesID=40f42f039e2ea7ef5a3837a7aec72536 StaticDependenciesID=bea93c2d303b63e9cca4c5abd89f049d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
